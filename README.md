@@ -21,11 +21,12 @@ The primary dataset used for this analysis are; "population-2010-2019.csv", "pop
 - Removed unwanted columns
 - Replaced incorrect values
 - Gave the columns the appropriate data types
-3. Using the duplicate and reference as appropriate, I split the table into one fact table and three dimension tables based on the category of information needed so as to have a 
-   structured project
-4. Used the merge feature to creat more columns to include the foreign keys and primary key into the fact and dimension tables respectively
+3. Using the duplicate and reference as appropriate, I split the table into the Fact-populaton, DIM-age, DIM-gender and DIM-region tables based on the category of information 
+   needed so as to have a structured project
+4. Used the merge feature to create more columns to include the foreign keys and primary key into the fact and dimension tables respectively
 5. Loaded the files into the data model for modelling, analysis and reporting
-6. Based on the star schema modelling technique, I connected the primary keys of the dimension tables to the foreign keys in the fact table so as to establish a relationship
+6. Based on the star schema modelling technique, I connected the primary keys of the dimension tables to the foreign keys in the fact table so as to establish a relationship 
+   between them
 7. Created visuals and reports
 
 ### Concepts Applied
